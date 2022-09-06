@@ -21,7 +21,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.8.0"
-httpx = "^0.16.1"
+httpx = ">=0.16.1,<0.24.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
